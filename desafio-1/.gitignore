@@ -1,0 +1,22 @@
+# Python virtual environment files
+venv/
+*.pyc
+
+# PostgreSQL database files
+*.log
+*.pid
+*.lock
+*.table
+*.index
+*.bak
+*.swp
+*.~*
+
+# Other files
+__pycache__/
+.DS_Store
+nba_payroll.csv
+nba_player_box_score_stats.csv
+nba_player_stats.csv
+nba_salaries.csv
+startup_data.json
