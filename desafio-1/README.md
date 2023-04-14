@@ -25,19 +25,25 @@ Siga as instruções abaixo para executar o script e carregar os dados no banco 
 
 Clone este repositório:
 
-`git clone https://github.com/eliza-wollinger/data_engineering.git`
+~~~~
+git clone https://github.com/eliza-wollinger/data_engineering.git
+~~~~
 
 Instale as dependências usando o pip:
 
-`pip install -r requirements.txt`
+~~~~
+pip install -r requirements.txt
+~~~~
 
-Crie um banco de dados no PostgreSQL com o nome nba_tech_startup.
+Crie um banco de dados no PostgreSQL com o nome `nba_tech_startup`.
 
 ### Utilização
 
 Execute o script main.py para carregar os dados da NBA e das startups no banco de dados PostgreSQL:
 
-`python main.py`
+~~~~
+python main.py
+~~~~
 
 ### Estrutura do projeto
 
