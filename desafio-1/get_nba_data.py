@@ -9,28 +9,11 @@ def read_playroll_data(file_path: str) -> List[Dict]:
         csv_reader = csv.DictReader(csv_file)
         return [
             {
-                "id": int(row["Id"]),
-                "name": row["Player"],
-                "height": int(row["height (in)"]),
-                "weight": int(row["weight (lbs)"]),
-                "college": row["college"],
-                "birthdate": datetime.strptime(row["birth_date"], "%Y-%m-%d"),
-            }
-            for row in csv_reader
-        ]
-
-
-def read_player_box_score_stats_data(file_path: str) -> List[Dict]:
-    with open(file_path) as csv_file:
-        csv_reader = csv.DictReader(csv_file)
-        return [
-            {
-                "id": int(row["Id"]),
-                "name": row["Player"],
-                "height": int(row["height (in)"]),
-                "weight": int(row["weight (lbs)"]),
-                "college": row["college"],
-                "birthdate": datetime.strptime(row["birth_date"], "%Y-%m-%d"),
+                "id": int(row["id"]),
+                "team": row["team"],
+                "season_smart_year": int(row["seasonStartYear"]),
+                "payroll": int(row["payroll"]),
+                "inflation_adj_payroll": int(row["inflationAdjPayroll"]),
             }
             for row in csv_reader
         ]
@@ -41,12 +24,10 @@ def read_player_stats_data(file_path: str) -> List[Dict]:
         csv_reader = csv.DictReader(csv_file)
         return [
             {
-                "id": int(row["Id"]),
-                "name": row["Player"],
-                "height": int(row["height (in)"]),
-                "weight": int(row["weight (lbs)"]),
-                "college": row["college"],
-                "birthdate": datetime.strptime(row["birth_date"], "%Y-%m-%d"),
+                "id": int(row["Unnamed: 0 "]),
+                "season": int(row["Season"]),
+                "player": row["Player"],
+                "age": int(row["Age"]),
             }
             for row in csv_reader
         ]
@@ -57,12 +38,11 @@ def read_salaries_data(file_path: str) -> List[Dict]:
         csv_reader = csv.DictReader(csv_file)
         return [
             {
-                "id": int(row["Id"]),
-                "name": row["Player"],
-                "height": int(row["height (in)"]),
-                "weight": int(row["weight (lbs)"]),
-                "college": row["college"],
-                "birthdate": datetime.strptime(row["birth_date"], "%Y-%m-%d"),
+                "id": int(row[""]),
+                "name": row["playerName"],
+                "season": int(row["seasonStartYear"]),
+                "salary": int(row["salary"]),
+                "inflation_adj_salary": row["inflationAdjSalary"],
             }
             for row in csv_reader
         ]
