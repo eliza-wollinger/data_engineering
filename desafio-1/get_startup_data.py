@@ -1,6 +1,5 @@
 import json
 from typing import List, Dict
-from psycopg2.extensions import AsIs
 
 
 def read_startup_data(file_path: str) -> List[Dict]:

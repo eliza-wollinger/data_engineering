@@ -1,7 +1,5 @@
 import csv
 from typing import List, Dict
-from datetime import datetime
-from psycopg2.extensions import AsIs
 
 
 def read_playroll_data(file_path: str) -> List[Dict]:
@@ -42,7 +40,7 @@ def read_salaries_data(file_path: str) -> List[Dict]:
                 "name": row["playerName"],
                 "season": int(row["seasonStartYear"]),
                 "salary": int(row["salary"]),
-                "inflation_adj_salary": row["inflationAdjSalary"],
+                "inflation_adj_salary": int(row["inflationAdjSalary"]),
             }
             for row in csv_reader
         ]
