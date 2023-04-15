@@ -1,5 +1,5 @@
 from db_connection import connect_to_db, close_db_connection
-from get_nba_data import read_playroll_data, read_player_box_score_stats_data, read_player_stats_data, create_nba_table, insert_nba_data
+from get_nba_data import read_playroll_data, read_player_box_score_stats_data, read_player_stats_data, read_salaries_data, create_nba_table, insert_nba_data
 from get_startup_data import read_startup_data, create_startup_table, insert_startup_data
 
 
