@@ -26,7 +26,7 @@ Siga as instruções abaixo para executar o script e carregar os dados no banco 
 Clone este repositório:
 
 ~~~~
-git clone https://github.com/eliza-wollinger/data_engineering.git
+git clone https://github.com/eliza-wollinger/engenharia_de_dados.git
 ~~~~
 
 Instale as dependências usando o pip:
