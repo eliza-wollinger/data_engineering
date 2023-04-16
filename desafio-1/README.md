@@ -1,6 +1,6 @@
-# Ingestão de dados da NBA e de startups de tecnologia no PostgreSQL
+# Ingestão de dados da NBA e de startups de tecnologia em um banco de dados PostgreSQL utilizando Python
 
-Este é um projeto Python que lê arquivos CSV e JSON e insere os dados em um banco de dados PostgreSQL. Ele inclui os dados dos jogadores e equipes da NBA e das principais startups de tecnologia. O objetivo deste projeto é demonstrar como carregar dados em um banco de dados relacional usando Python.
+Este é um projeto desenvolvido em python que lê arquivos CSV e JSON e insere os dados em um banco de dados PostgreSQL. O objetivo deste projeto é demonstrar como carregar dados em um banco de dados relacional usando Python.
 
 ## Tecnologias utilizadas
 
@@ -29,17 +29,17 @@ Clone este repositório:
 git clone https://github.com/eliza-wollinger/engenharia-de-dados.git
 ~~~~
 
-Instale as dependências usando o pip:
+Entre na pasta `desafio-1` e instale as dependências usando o pip:
 
 ~~~~
 pip install -r requirements.txt
 ~~~~
 
-Crie um banco de dados no PostgreSQL com o nome `nba_tech_startup`.
+Crie um banco de dados no PostgreSQL utilizando os scripts disponibilizados.
 
 ### Utilização
 
-Execute o script main.py para carregar os dados da NBA e das startups no banco de dados PostgreSQL:
+Execute o script main.py da pasta `desafio-1` para carregar os dados da NBA e das startups no banco de dados PostgreSQL:
 
 ~~~~
 python main.py
