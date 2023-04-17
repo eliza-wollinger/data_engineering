@@ -11,11 +11,11 @@ Estes exercícios abrangem diferentes tópicos da Engenharia de Dados, como:
 - Big Data
 - Processamento Distribuído
 
-Cada exercício existe um conjunto de dados, uma descrição do problema a ser resolvido e um ou alguns scripts com a solução implementada. Estes scripts estão organizados de forma a facilitar a navegação e a busca de exemplos específicos.
+Para exercício existe um conjunto de dados, uma descrição do problema a ser resolvido e um ou alguns scripts com a solução implementada. Estes scripts estão organizados de forma a facilitar a navegação e a busca de exemplos específicos.
 
 
 | IDENTIFICADOR | DESCRIÇÃO |
 |--------------:|-----------|
-| [DESAFIO 1](https://github.com/eliza-wollinger/data_engineering/tree/main/desafio-1) | Projeto que realiza a leitura e processamento de dados para arquivos JSON e CSV, bem como um script que realiza a conexão com o banco de dados e insere os dados processados em suas respectivas tabelas. |
+| [DESAFIO 1](https://github.com/eliza-wollinger/data_engineering/tree/main/desafio-1) | Projeto que realiza a leitura e processamento de dados JSON e CSV, realiza a conexão com o banco de dados e insere esses dados processados em suas respectivas tabelas. |
 
 
